@@ -28,9 +28,10 @@ const Feed = () => {
 
   return (
     feed && (
-      <div>
-        <UserCard user={feed[0]} />
-      </div>
+      <div className="w-full flex justify-center overflow-hidden">
+      <UserCard user={feed[0]} />
+    </div>
+
 
     )
   );
